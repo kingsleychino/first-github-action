@@ -1,0 +1,10 @@
+name: First-workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: macos-latest
+    steps:
+      - name: print hello
+        run: echo "Hello World"
+      - name: bye
+        run: echo "bye bye"
